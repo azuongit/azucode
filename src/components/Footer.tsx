@@ -45,8 +45,6 @@ const Footer = () => {
             <h4 className="text-lg font-semibold">Contact</h4>
             <div className="space-y-2">
               <p className="text-muted-foreground">azu.code@example.com</p>
-              <p className="text-muted-foreground">+33 6 12 34 56 78</p>
-              <p className="text-muted-foreground">Paris, France</p>
             </div>
             
             {/* Social Links */}
@@ -87,7 +85,7 @@ const Footer = () => {
         <div className="pt-8 border-t border-border/30 text-center">
           <p className="text-muted-foreground">
             © {currentYear} <span className="text-primary font-semibold">Azu Code</span>. 
-            Tous droits réservés. Fait avec ❤️ et React.
+            Tous droits réservés.
           </p>
         </div>
       </div>
